@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GuestBook"
+    }
+  },
+  "defaultProject": "GuestBook",
+  "cli": {
+    "analytics": "8c9c7002-8b5e-4440-8dce-4a91b10ea603"
+  }
 }

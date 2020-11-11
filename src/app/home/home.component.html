@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>site GuestBook</h2>
+    
+    <form [formGroup]="fg" (ngSubmit)="onSubmit()">
+      <div class="group">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Name" formControlName="name" required>
+      </div>
+    
+      <div class="group">
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Name" formControlName="email" required>
+      </div>
+    
+      <div class="group">
+        <label for="phone">phone</label>
+        <input type="phone" placeholder="phone" formControlName="phone" required>
+      </div>
+    
+    <button class="button">submit</button>
+    <a routerLink="/visitors">visitors</a>
+    </form>
+</div>

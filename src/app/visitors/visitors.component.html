@@ -1,0 +1,19 @@
+<h1>WELCOME TO GUESTBOOK</h1>
+
+<table id="customers">
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>E-MAIL</th>
+        <th>PHONE</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr *ngFor="let visitor of visitors; let i = index">
+        <td>{{visitor.name}}</td>
+        <td>{{visitor.email}}</td>
+        <td>{{visitor.phone}}</td>
+      </tr>
+    </tbody>
+  </table>
